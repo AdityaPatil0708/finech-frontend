@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 export function Hero1() {
   return (
-    <div className="flex flex-row gap-4 mt-20 max-w-7xl mx-auto ">
+    <div className="flex flex-row gap-4 mt-20 pb-20 max-w-7xl mx-auto">
       {/* Left Section */}
       <div className="flex flex-col gap-5 w-1/2">
         <div className="text-sm text-sky-600">FINANCE SOLUTION </div>
@@ -14,11 +14,11 @@ export function Hero1() {
           <span>Infrastructure,</span>
           <span>Designed for You</span>
         </div>
-        <div className="text-white mt-5 text-m">
+        <div className="text-white mt-5 text-md">
           Powerful APIs and seamless integrations to help businesses move money,
           <br /> manage risk, and scale globally
         </div>
-        <div className="flex items-center gap-3 bg-white rounded-2xl px-1 text-sm py-1 w-100 mb-10 mt-5">
+        <div className="flex items-center gap-2 bg-white rounded-xl px-1 text-sm py-1 w-100 mb-10 mt-3">
           <img src="./envelope.png" alt="" className="h-5 w-5" />
           <input
             type="text"
@@ -31,7 +31,7 @@ export function Hero1() {
         </div>
         <div className="text-white mt-20 flex flex-col">
           <p>Partners in Financial Success</p>
-          <div className="flex flex-row gap-8 h-10 w-25 mt-2">
+          <div className="flex flex-row gap-8 h-12 w-30 mt-4">
             <img src="./slack.png" alt="" />
             <img src="./amazon.png" alt="" />
             <img src="./dropbox.png" alt="" />
