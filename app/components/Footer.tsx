@@ -3,13 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer
-      className="py-16 px-8"
-      style={{
-        backgroundImage: "url('/pattern.png')",
-        backgroundRepeat: "repeat",
-        backgroundSize: "auto",
-      }}
-    >
+      className="py-16 px-8 mt-10">
       <div className="max-w-7xl mx-auto">
         {/* Top Section */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-30 gap-y-10 mb-20">
@@ -29,7 +23,7 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h3 className="font-semibold text-lg mb-6">Company</h3>
+            <h3 className="font-medium text-lg mb-6">Company</h3>
             <ul className="space-y-4 text-gray-500 text-sm">
               <li><Link href="/about" className="hover:text-gray-900">About Us</Link></li>
               <li><Link href="/careers" className="hover:text-gray-900">Careers</Link></li>
@@ -40,7 +34,7 @@ export default function Footer() {
 
           {/* Products */}
           <div>
-            <h3 className="font-semibold text-lg mb-6">Products</h3>
+            <h3 className="font-medium text-lg mb-6">Products</h3>
             <ul className="space-y-4 text-gray-500 text-sm">
               <li><Link href="/payments" className="hover:text-gray-900">Payments</Link></li>
               <li><Link href="/api-docs" className="hover:text-gray-900">API & Developer Docs</Link></li>
@@ -51,7 +45,7 @@ export default function Footer() {
 
           {/* Resources */}
           <div>
-            <h3 className="font-semibold text-lg mb-6">Resources</h3>
+            <h3 className="font-medium text-lg mb-6">Resources</h3>
             <ul className="space-y-4 text-gray-500 text-sm">
               <li><Link href="/help" className="hover:text-gray-900">Help Center</Link></li>
               <li><Link href="/faqs" className="hover:text-gray-900">FAQs</Link></li>
@@ -62,7 +56,7 @@ export default function Footer() {
 
           {/* Legal */}
           <div>
-            <h3 className="font-semibold text-lg mb-6">Legal</h3>
+            <h3 className="font-medium text-lg mb-6">Legal</h3>
             <ul className="space-y-4 text-gray-500 text-sm">
               <li><Link href="/privacy" className="hover:text-gray-900">Privacy Policy</Link></li>
               <li><Link href="/terms" className="hover:text-gray-900">Terms of Service</Link></li>
@@ -73,7 +67,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold text-lg mb-6">Contact</h3>
+            <h3 className="font-medium text-lg mb-6">Contact</h3>
             <ul className="space-y-4 text-gray-500 text-sm">
               <li><Link href="/support" className="hover:text-gray-900">Support</Link></li>
               <li><Link href="/partnerships" className="hover:text-gray-900">Partnerships</Link></li>

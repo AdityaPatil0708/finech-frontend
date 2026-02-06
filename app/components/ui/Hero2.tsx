@@ -1,9 +1,9 @@
-import { Card1 } from "./card-1"
-import { Card2 } from "./card-2"
+import { Card1 } from "./Card-1"
+import { Card2 } from "./Card-2"
 
 export function Hero2(){
     return(
-        <div className="mt-25">
+        <div className="mt-25 mb-25">
             <div className="text-center mb-20">
                 <p className="text-[#0B71DA] font-medium">WHY CHOOSE FINECH?</p>
                 <div className="text-5xl tracking-tight mt-5">Powering the Future of Finance</div>

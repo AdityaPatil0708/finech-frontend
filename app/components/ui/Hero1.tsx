@@ -14,11 +14,13 @@ export function Hero1() {
           <span>Infrastructure,</span>
           <span>Designed for You</span>
         </div>
+        
         <div className="text-white mt-5 text-md">
           Powerful APIs and seamless integrations to help businesses move money,
           <br /> manage risk, and scale globally
         </div>
-        <div className="flex items-center gap-2 bg-white rounded-xl px-1 text-sm py-1 w-100 mb-10 mt-3">
+
+        <div className="flex items-center gap-2 bg-white rounded-2xl px-1 text-sm py-1 w-100 mb-10 mt-3">
           <img src="./envelope.png" alt="" className="h-5 w-5" />
           <input
             type="text"
@@ -29,6 +31,7 @@ export function Hero1() {
           />
           <Button text="Talk to Sales" icon={ArrowRight} />
         </div>
+
         <div className="text-white mt-20 flex flex-col">
           <p>Partners in Financial Success</p>
           <div className="flex flex-row gap-8 h-12 w-30 mt-4">
