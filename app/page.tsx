@@ -1,25 +1,30 @@
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Hero1 } from "./components/ui/Hero1";
+import { Hero2 } from "./components/ui/Hero2";
 
 export default function Home() {
   return (
     <div>
-      {/* Top section with gradient and pattern */}
-      <div 
-        className="bg-black"
-        style={{ 
-          backgroundImage: "url('./gradient.png'), url('./pattern.png')",
-          backgroundSize: "cover, 90%",
-          backgroundPosition: "bottom left, center",
-          backgroundRepeat: "no-repeat, repeat"
-        }}
+      {/* Hero section with gradient background */}
+      <div
+        className="
+    bg-black
+    bg-[url('/gradient-1.png'),url('/pattern.png')]
+    bg-cover
+    bg-no-repeat
+    bg-center
+  "
       >
-        <Navbar/>
-        <Hero1/>
+        <Navbar />
+        <Hero1 />
       </div>
-      <div className="" style={{backgroundImage:"url(./pattern.png)",backgroundSize:"cover"}}>
-        <Footer/>
+
+      <Hero2 />
+
+      {/* Footer section with pattern background */}
+      <div className="bg-[url('/pattern.png')] bg-cover bg-repeat">
+        <Footer />
       </div>
     </div>
   );

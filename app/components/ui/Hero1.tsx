@@ -6,7 +6,7 @@ export function Hero1() {
     <div className="flex flex-row gap-4 mt-20 pb-20 max-w-7xl mx-auto">
       {/* Left Section */}
       <div className="flex flex-col gap-5 w-1/2">
-        <div className="text-sm text-sky-600">FINANCE SOLUTION </div>
+        <div className="text-sm text-[#0B71DA]">FINANCE SOLUTION </div>
         <div className="text-6xl text-white flex flex-col gap-3 tracking-tight">
           <span>Empowering the</span>
           <span>Next Generation</span>
