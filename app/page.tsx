@@ -11,14 +11,9 @@ import { Hero7 } from "./components/ui/Hero7";
 export default function Home() {
   return (
     <div>
+
       <div
-        className="
-      bg-black
-        bg-[url('/gradient-1.png'),url('/pattern.png')]
-        bg-cover
-        bg-no-repeat
-        bg-center"
-      >
+        className="bg-black bg-[url('/gradient-1.png'),url('/pattern.png')] bg-cover bg-no-repeat bg-center">
         <Navbar />
         <Hero1 />
       </div>
@@ -26,13 +21,7 @@ export default function Home() {
       <Hero2 />
 
       <div
-        className="
-      bg-black
-        bg-[url('/gradient-2.png'),url('/pattern.png')]
-        bg-cover
-        bg-no-repeat
-        bg-center"
-      >
+        className="bg-black bg-[url('/gradient-2.png'),url('/pattern.png')] bg-cover bg-no-repeat bg-center">
         <Hero3 />
       </div>
 
@@ -44,9 +33,7 @@ export default function Home() {
 
       <Hero6 />
 
-      <div>
-        <Hero7 />
-      </div>
+      <Hero7 />
 
       <div className="bg-[url('/footer-pattern.png')] bg-cover">
         <Footer />
