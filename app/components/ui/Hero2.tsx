@@ -1,5 +1,5 @@
-import { Card1 } from "./Card-1"
-import { Card2 } from "./Card-2"
+import { Card1 } from "./Card1"
+import { Card2 } from "./Card2"
 
 export function Hero2(){
     return(
