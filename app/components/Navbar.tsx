@@ -21,7 +21,7 @@ export default function Navbar() {
         </div>
 
         {/* Nav links - Centered (Hidden on mobile) */}
-        <ul className="hidden lg:flex items-center gap-4 xl:gap-5 text-white text-sm">
+        <ul className="hidden lg:flex items-center gap-4 xl:gap-5 text-white text-sm absolute left-1/2 transform -translate-x-1/2">
           <li><Link href="" className="hover:opacity-80">Home</Link></li>
           <li><Link href="" className="hover:opacity-80">Solutions</Link></li>
           <li><Link href="" className="hover:opacity-80">Integrations</Link></li>
