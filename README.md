@@ -4,7 +4,7 @@ A modern, responsive landing page for Finech, a next-generation financial infras
 
 ## Live Demo
 
-Visit the live site: [finech-07.vercel.app]
+Visit the live site: finech-07.vercel.app
 
 ## Features
 
@@ -85,7 +85,7 @@ All components are optimized for these breakpoints with mobile-first design appr
 
 1. Clone the repository
 ```bash
-git clone <https://github.com/AdityaPatil0708/finech.git>
+git clone https://github.com/AdityaPatil0708/finech.git
 cd finech
 ```
 
