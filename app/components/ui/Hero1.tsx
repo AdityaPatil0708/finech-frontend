@@ -41,33 +41,33 @@ export function Hero1() {
         </div>
       </div>
 
-      {/* Right Section - Hidden on mobile */}
-      <div className="hidden lg:block relative w-full lg:w-1/2 min-h-[600px]">
+      {/* Right Section - Responsive */}
+      <div className="relative w-full lg:w-1/2 aspect-4/3 lg:aspect-auto lg:min-h-[600px] mb-15">
         <img
           src="./card-1.png"
           alt=""
-          className="absolute top-0 left-[100px] w-[440px]"
+          className="absolute top-0 left-[18%] lg:left-[100px] w-[73%] lg:w-[440px]"
           style={{ zIndex: 3 }}
         />
 
         <img
           src="./card-2.png"
           alt=""
-          className="absolute top-[140px] left-1/2 -translate-x-1/2 w-[560px]"
+          className="absolute top-[30%] lg:top-[140px] left-1/2 -translate-x-1/2 w-[93%] lg:w-[560px]"
           style={{ zIndex: 1 }}
         />
 
         <img
           src="./card-3.png"
           alt=""
-          className="absolute top-[440px] left-[120px] w-[220px]"
+          className="absolute top-[90%] lg:top-[440px] left-[20%] lg:left-[120px] w-[37%] lg:w-[220px]"
           style={{ zIndex: 3 }}
         />
 
         <img
           src="./card-4.png"
           alt=""
-          className="absolute top-[440px] right-[120px] w-[180px]"
+          className="absolute top-[90%] lg:top-[440px] right-[20%] lg:right-[120px] w-[30%] lg:w-[180px]"
           style={{ zIndex: 3 }}
         />
       </div>

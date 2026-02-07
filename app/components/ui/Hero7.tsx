@@ -37,8 +37,8 @@ export function Hero7() {
         </div>
 
         {/* Logos */}
-        <div className="flex justify-center px-4 pb-6 md:pb-0">
-          <img src="/hero7logos.png" alt="" className="w-full max-w-4xl h-auto" />
+        <div className="flex justify-center">
+          <img src="/hero7logos.png" alt="" className="" />
         </div>
       </div>
     </div>

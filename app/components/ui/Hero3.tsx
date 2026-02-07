@@ -57,9 +57,9 @@ export function Hero3() {
           </div>
         </div>
         
-        {/* Image - Hidden on mobile, shown on larger screens */}
-        <div className="hidden lg:block shrink-0">
-          <img src="/hero3image.png" alt="" className="h-[600px] w-auto" />
+        {/* Image - Responsive on all screens */}
+        <div className="flex justify-center lg:justify-end shrink-0">
+          <img src="/hero3image.png" alt="" className="w-full max-w-md md:max-w-lg lg:max-w-none lg:h-[600px] lg:w-auto h-auto" />
         </div>
       </div>
     </div>

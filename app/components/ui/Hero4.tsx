@@ -18,7 +18,7 @@ export function Hero4() {
           <img src="/features.png" alt="" className="w-full h-auto max-h-[600px] object-contain" />
         </div>
         <div className="flex items-center justify-center bg-[url('/pattern5.png')] bg-cover bg-center rounded-xl md:rounded-2xl p-6 md:p-8">
-          <img src="/vektor.png" alt="" className="w-full max-w-[300px] md:max-w-[400px] h-auto" />
+          <img src="/vektor.png" alt="" className="w-full max-w-[300px] md:max-w-[500px] h-auto" />
         </div>
       </div>
 
