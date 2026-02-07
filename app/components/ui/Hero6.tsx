@@ -2,19 +2,21 @@ import { PricingCard } from "./PricingCard";
 
 export function Hero6() {
   return (
-    <div className="max-w-7xl mx-auto">
-      <div className="text-center mt-20 mb-20">
-        <p className="text-[#0B71DA] font-medium">PRICING PLAN</p>
-        <div className="text-5xl tracking-tight mt-5">
+    <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-0">
+      <div className="text-center mt-12 md:mt-20 mb-12 md:mb-20">
+        <p className="text-[#0B71DA] font-medium text-xs md:text-sm">PRICING PLAN</p>
+        <div className="text-3xl md:text-4xl lg:text-5xl tracking-tight mt-4 md:mt-5 px-4">
           Find the Right Plan for Your Business
         </div>
-        <div className="text-md text-gray-500 mt-5">
+        <div className="text-sm md:text-base text-gray-500 mt-4 md:mt-5 px-4">
           Transparent pricing with powerful features. Whether you're just
-          starting out or processing high-volume <br /> transactions, we have a
+          starting out or processing high-volume transactions, we have a
           plan for you.
         </div>
       </div>
-      <div className="flex flex-row gap-5">
+      
+      {/* Pricing Cards - Responsive Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
         <PricingCard
           title="Starter Plan"
           price="$0"
@@ -40,11 +42,7 @@ export function Hero6() {
             "24/7 chat & email support for faster issue resolution",
             "Faster settlement speed (T+1) for better cash flow",
           ]}
-          cardBgColor="bg-zinc-950
-        bg-[url('/pattern.png')]
-        bg-cover
-        bg-no-repeat
-        bg-center"
+          cardBgColor="bg-zinc-950 bg-[url('/pattern.png')] bg-cover bg-no-repeat bg-center"
           cardTextColor="text-white"
           buttonBgColor="bg-[#0B71DA]"
           btnText="Choose Plan"

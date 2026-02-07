@@ -17,7 +17,7 @@ export function Button2({
     <button
       onClick={onClick}
       className={`
-        w-full rounded-full py-4 text-xl font-medium
+        w-full rounded-full py-3 md:py-4 text-base md:text-xl font-medium
         transition-all hover:opacity-90 active:scale-[0.98] hover:cursor-pointer
         ${bgColor} ${textColor} ${className}
       `}

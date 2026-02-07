@@ -21,7 +21,7 @@ export default function Home() {
       <Hero2 />
 
       <div
-        className="bg-black bg-[url('/gradient-2.png'),url('/pattern.png')] bg-cover bg-no-repeat bg-center">
+        className="bg-black bg-[url('/gradient-2.png'),url('/pattern6.png')] bg-cover bg-no-repeat bg-center">
         <Hero3 />
       </div>
 

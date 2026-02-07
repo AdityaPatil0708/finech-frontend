@@ -3,13 +3,13 @@ interface FeatureTileProps {
   alt?: string;
 }
 
-export function UseCaseCard({ imageSrc, alt = "", }: FeatureTileProps) {
+export function UseCaseCard({ imageSrc, alt = "" }: FeatureTileProps) {
   return (
     <div className="flex items-center justify-center">
       <img
         src={imageSrc}
         alt={alt}
-        className="h-110"
+        className="w-full h-auto max-h-[440px] object-contain rounded-xl"
       />
     </div>
   );
