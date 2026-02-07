@@ -20,7 +20,7 @@ export function Hero1() {
           manage risk, and scale globally
         </div>
 
-        <div className="flex items-center gap-1 md:gap-2 bg-white rounded-xl md:rounded-2xl px-2 md:px-1 text-xs md:text-sm py-2 md:py-1 mb-6 md:mb-10 mt-2 md:mt-3">
+        <div className="flex items-center gap-1 md:gap-2 bg-white rounded-xl md:rounded-2xl px-2 md:px-1 text-xs md:text-sm py-2 md:py-1 mb-6 md:mb-10 mt-2 md:mt-3 w-full lg:w-4/5">
           <img src="./envelope.png" alt="" className="h-4 w-4 md:h-5 md:w-5 ml-1" />
           <input
             type="text"
