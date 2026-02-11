@@ -9,7 +9,7 @@ export function Hero7() {
         
         {/* Text */}
         <div className="text-center pt-6 md:pt-10 px-4">
-          <p className="text-[#0B71DA] font-medium text-xs md:text-sm">FINANCE SOLUTION</p>
+          <p className="text-primary font-medium text-xs md:text-sm">FINANCE SOLUTION</p>
 
           <div className="text-3xl md:text-4xl lg:text-5xl tracking-tight mt-4 md:mt-5 text-white">
             Ready to Scale Your Payments?

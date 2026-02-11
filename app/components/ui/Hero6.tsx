@@ -4,7 +4,7 @@ export function Hero6() {
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-0">
       <div className="text-center mt-12 md:mt-20 mb-12 md:mb-20">
-        <p className="text-[#0B71DA] font-medium text-xs md:text-sm">PRICING PLAN</p>
+        <p className="text-primary font-medium text-xs md:text-sm">PRICING PLAN</p>
         <div className="text-3xl md:text-4xl lg:text-5xl tracking-tight mt-4 md:mt-5 px-4">
           Find the Right Plan for Your Business
         </div>
@@ -44,7 +44,7 @@ export function Hero6() {
           ]}
           cardBgColor="bg-zinc-950 bg-[url('/pattern.png')] bg-cover bg-no-repeat bg-center"
           cardTextColor="text-white"
-          buttonBgColor="bg-[#0B71DA]"
+          buttonBgColor="bg-primary"
           btnText="Choose Plan"
           btnTextColor="text-white"
         />

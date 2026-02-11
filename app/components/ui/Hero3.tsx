@@ -6,7 +6,7 @@ export function Hero3() {
   return (
     <div className="pt-12 md:pt-20 pb-12 md:pb-20 px-4 md:px-8 lg:px-0">
       <div className="text-center max-w-7xl mx-auto">
-        <p className="text-[#0B71DA] font-medium text-xs md:text-sm">WHO IS IT FOR?</p>
+        <p className="text-primary font-medium text-xs md:text-sm">WHO IS IT FOR?</p>
         <div className="text-3xl md:text-4xl lg:text-5xl tracking-tight mt-4 md:mt-5 text-white px-4">
           Financial Solutions for Every Industry
         </div>
@@ -27,7 +27,7 @@ export function Hero3() {
       {/* Developer Tools Section */}
       <div className="max-w-7xl mx-auto mt-16 md:mt-[300px] flex flex-col lg:flex-row gap-10 lg:gap-20">
         <div className="flex-1">
-          <div className="text-xs md:text-sm text-[#0B71DA] font-medium">FINANCE SOLUTION</div>
+          <div className="text-xs md:text-sm text-primary font-medium">FINANCE SOLUTION</div>
           <div className="text-3xl md:text-4xl lg:text-5xl text-white flex flex-col gap-2 md:gap-3 tracking-tight mt-4 md:mt-5">
             <span>Seamless Integration with</span>
             <span>Powerful Developer Tools</span>

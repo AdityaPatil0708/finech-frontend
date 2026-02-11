@@ -3,7 +3,7 @@ export function Hero4() {
     <div className="pt-12 md:pt-20 pb-12 md:pb-20 max-w-7xl mx-auto px-4 md:px-8 lg:px-0">
 
       <div className="text-center">
-        <p className="text-[#0B71DA] font-medium text-xs md:text-sm">SECURITY AND COMPLIANCE</p>
+        <p className="text-primary font-medium text-xs md:text-sm">SECURITY AND COMPLIANCE</p>
         <div className="text-3xl md:text-4xl lg:text-5xl tracking-tight mt-4 md:mt-5 px-4">
           Enterprise-Grade Protection for Your Business
         </div>

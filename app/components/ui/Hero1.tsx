@@ -6,7 +6,7 @@ export function Hero1() {
     <div className="flex flex-col lg:flex-row gap-8 lg:gap-4 mt-10 md:mt-20 pb-10 md:pb-20 max-w-7xl mx-auto px-4 md:px-8 lg:px-0">
       {/* Left Section */}
       <div className="flex flex-col gap-4 md:gap-5 w-full lg:w-1/2">
-        <div className="text-xs md:text-sm text-[#0B71DA] font-medium">FINANCE SOLUTION</div>
+        <div className="text-xs md:text-sm text-primary font-medium">FINANCE SOLUTION</div>
         <div className="text-5xl md:text-5xl lg:text-6xl text-white flex flex-col gap-2 md:gap-3 md:tracking-tight">
           <span>Empowering the</span>
           <span>Next Generation</span>

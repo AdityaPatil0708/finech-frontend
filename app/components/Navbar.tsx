@@ -80,32 +80,32 @@ export default function Navbar() {
           {/* Menu items */}
           <ul className="flex flex-col gap-6 px-8 py-4 text-white">
             <li>
-              <Link href="" className="text-lg hover:text-[#0B71DA] transition-colors" onClick={closeMenu}>
+              <Link href="" className="text-lg hover:text-primary transition-colors" onClick={closeMenu}>
                 Home
               </Link>
             </li>
             <li>
-              <Link href="" className="text-lg hover:text-[#0B71DA] transition-colors" onClick={closeMenu}>
+              <Link href="" className="text-lg hover:text-primary transition-colors" onClick={closeMenu}>
                 Solutions
               </Link>
             </li>
             <li>
-              <Link href="" className="text-lg hover:text-[#0B71DA] transition-colors" onClick={closeMenu}>
+              <Link href="" className="text-lg hover:text-primary transition-colors" onClick={closeMenu}>
                 Integrations
               </Link>
             </li>
             <li>
-              <Link href="" className="text-lg hover:text-[#0B71DA] transition-colors" onClick={closeMenu}>
+              <Link href="" className="text-lg hover:text-primary transition-colors" onClick={closeMenu}>
                 Pricing
               </Link>
             </li>
             <li>
-              <Link href="" className="text-lg hover:text-[#0B71DA] transition-colors" onClick={closeMenu}>
+              <Link href="" className="text-lg hover:text-primary transition-colors" onClick={closeMenu}>
                 Resources
               </Link>
             </li>
             <li className="pt-4 border-t border-gray-700">
-              <Link href="/login" className="text-lg hover:text-[#0B71DA] transition-colors" onClick={closeMenu}>
+              <Link href="/login" className="text-lg hover:text-primary transition-colors" onClick={closeMenu}>
                 Login
               </Link>
             </li>
@@ -114,7 +114,7 @@ export default function Navbar() {
           {/* Get Started button in mobile menu */}
           <div className="px-8 mt-auto mb-8">
             <Link href="" onClick={closeMenu}>
-              <button className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-[#0B71DA] text-white text-sm rounded-xl hover:bg-[#0960b8] transition-colors">
+              <button className="w-full flex items-center justify-center gap-2 px-4 py-3 bg-primary text-white text-sm rounded-xl hover:bg-primary-hover transition-colors">
                 Get Started
                 <ArrowUpRight size={20} />
               </button>

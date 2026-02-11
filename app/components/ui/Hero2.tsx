@@ -5,7 +5,7 @@ export function Hero2(){
     return(
         <div className="mt-12 md:mt-20 mb-12 md:mb-20 px-4 md:px-8 lg:px-0">
             <div className="text-center mb-12 md:mb-20">
-                <p className="text-[#0B71DA] font-medium text-xs md:text-sm">WHY CHOOSE FINECH?</p>
+                <p className="text-primary font-medium text-xs md:text-sm">WHY CHOOSE FINECH?</p>
                 <div className="text-3xl md:text-4xl lg:text-5xl tracking-tight mt-4 md:mt-5 px-4">Powering the Future of Finance</div>
                 <div className="text-gray-500 text-sm md:text-base mt-4 md:mt-5 px-4">
                     Unlock seamless transactions, secure financial services, and limitless scalability with our powerful, API-driven infrastructure.

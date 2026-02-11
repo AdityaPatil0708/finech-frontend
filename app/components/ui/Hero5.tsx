@@ -6,7 +6,7 @@ export function Hero5() {
     <div className="max-w-7xl mx-auto relative px-4 md:px-8 lg:px-0">
       {/* Header */}
       <div className="text-center pt-12 md:pt-20">
-        <p className="text-[#0B71DA] font-medium text-xs md:text-sm">SUCCESS STORY</p>
+        <p className="text-primary font-medium text-xs md:text-sm">SUCCESS STORY</p>
         <div className="text-3xl md:text-4xl lg:text-5xl tracking-tight mt-4 md:mt-5 px-4">
           How Businesses Thrive with Finech
         </div>
